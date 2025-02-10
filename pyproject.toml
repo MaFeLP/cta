@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "auswertungtitration"
+version = "0.1.0"
+description = ""
+authors = ["MaFeLP <mafelp@proton.me>"]
+license = "GPLv3.0-OR-LATER"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "2.2.2"
+matplotlib = "3.10.0"
+pyscript = "0.3.3"
+scipy = "1.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

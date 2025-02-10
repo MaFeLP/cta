@@ -1,0 +1,7 @@
+name = "PTA - Auswertung Potentiometrie"
+description = "Ein Webfrontend, um die Auswertung von Potentiometrie-Experimenten zu erleichtern."
+packages = ["numpy", "matplotlib", "scipy",]
+
+[files]
+"/tangente_plot.py" = "./tangente_plot.py"
+"/ableitung_plot.py" = "./ableitung_plot.py"
